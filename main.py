@@ -1,6 +1,10 @@
 import os
 
-TEXT = "I asked for a raise and got a webinar titled 'Owning Your Worth'."
+_PARTS = (
+    "I asked for a raise",
+    "and got a webinar titled 'Owning Your Worth'.",
+)
+TEXT = " ".join(_PARTS)
 
 
 def main():
